@@ -1,0 +1,8 @@
+Every folder in app will have corresponding folder in component to store all React component for that folder.
+
+Ex: app/(auth)/onboarding --> components/onboarding
+
+Every component name follow this convention:
+- If it end with "Card" then it display information
+- If it end with "Form" then it handle user data submit
+- "Utils" is a file contain all support function
